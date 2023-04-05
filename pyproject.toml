@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "interoperability"
+version = "0.1.0"
+description = "TRUSTS T3.3 interoperability solutions"
+authors = ["Stefan Gindl"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.1.3"
+requests = "^2.24.0"
+jupyterlab = "^2.2.8"
+jupyter-resource-usage = "^0.6.1"
+xmltodict = "^0.12.0"
+rdflib = "^6.1.1"
+lxml = "^4.8.0"
+python-dotenv = "^0.20.0"
+tqdm = "^4.64.0"
+toolz = "^0.11.2"
+sphinx = "^4.5.0"
+sphinx-rtd-theme = "^1.0.0"
+ckanapi = "^4.7"
+trusts-platform-client = {git = "https://gitlab.com/trusts-platform/trusts-platform-client.git"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

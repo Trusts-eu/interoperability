@@ -1,0 +1,7 @@
+# Add your settings here and save the file as '.env'
+CONNECTOR_URL="" # TRUSTS clone, e.g., http://35.205.82.213:8282/
+BROKER_URL=""  # Relative to the connector, e.g., http://broker-core:8282/infrastructure
+ADMIN=""
+PASSWORD=""
+CKAN_TOKEN=''
+TRUSTS_URL='' # E.g., http://127.0.0.1:5000/
